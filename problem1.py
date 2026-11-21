@@ -76,4 +76,10 @@ postorder(root)
 print("\nLevel-order:", end=" ")
 level_order(root)
 
-print()
+print() 
+
+Output:
+Inorder: 2 4 6 10 12 15 20 25 30 
+Preorder: 15 10 4 2 6 12 25 20 30 
+Postorder: 2 6 4 12 10 20 30 25 15 
+Level-order: 15 10 25 4 12 20 30 2 6 
