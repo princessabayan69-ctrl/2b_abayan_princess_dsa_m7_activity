@@ -65,3 +65,8 @@ def iterative_size(root):
 print("Size:", size(root))
 print("Height:", height(root))
 print("Iterative Size:", iterative_size(root))
+
+Output:
+Size: 9
+Height: 3
+Iterative Size: 9
