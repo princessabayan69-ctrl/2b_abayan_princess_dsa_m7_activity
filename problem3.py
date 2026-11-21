@@ -115,7 +115,13 @@ if __name__ == "__main__":
     print(bst.search(99))  # line C
 
     bst.delete(20)  # leaf
-
     bst.delete(40)  # two children
 
     print(bst.inorder())  # line D
+
+
+Output:
+[20, 30, 35, 40, 45, 50, 60, 70, 80]
+True
+False
+[30, 35, 45, 50, 60, 70, 80]
